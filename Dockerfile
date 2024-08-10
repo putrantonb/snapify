@@ -50,7 +50,7 @@ RUN \
 FROM --platform=linux/amd64 node:18-alpine3.17 AS runner
 WORKDIR /app
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 # ENV NEXT_TELEMETRY_DISABLED 1
 
